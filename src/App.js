@@ -12,7 +12,7 @@ const countries= [
 
 function App() {
 
-  const [getState, setState] = useState([{  name:"", value:"", cities:[]  } ] );
+  const [getState, setState] = useState(0);
 
   const handle= (num)=> {
     console.log(num.target.value);
